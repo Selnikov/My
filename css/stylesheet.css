@@ -1,0 +1,110 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #cd5555;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main-text {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.response_card_ALL {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.response_card {
+    border-style: solid;
+    border-color: rgb(96, 165, 5);
+    box-shadow: 0 0 15px rgb(187, 102, 4);
+    border-radius: 8%;
+    font-size: large;
+    margin: 20px;
+    padding: 15px;
+    max-width: 250px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #02bd66;
+    color: #000000;
+    margin-top: 60pt;
+}
+
+.bum {
+    background: url("https://kak2z.ru/my_img/img/2016/03/01/55eaa.jpg") center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+
+}
+
+.bum1 {
+    background: url("https://uhd.name/uploads/posts/2022-01/1642017604_11-uhd-name-p-kurtka-bomzha-devushka-krasivo-foto-15.jpg") center no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+
+}
+
+.bum2 {
+    background: url("https://www.meme-arsenal.com/memes/e662891628d6cf87927a30e9a22255d0.jpg") center no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+
+
+}
+
+.bum3 {
+    background: url("https://sun9-75.userapi.com/sun9-33/impg/J97SSAhHP20Ct5JsXocH2XXLMLi0Bsnc9dgbGA/LfAtZZLZdxs.jpg?size=807x562&quality=96&sign=543d2a185a75e1d052a739f8bea29822&c_uniq_tag=g2ELezaVE8B_63bdCmCOciFHfstTyXz-JQE-9Y4aBUY&type=album") center no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+
+
+}
+@media screen and (max-width:450px) {
+    .bum {
+        width: 70px;
+        height: 70px;
+        ;
+    }
+
+    .bum1 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .bum2 {
+        width: 70px;
+        height: 70px;
+        ;
+    }
+    .bum3 {
+        width: 70px;
+        height: 70px;
+        ;
+    }
+}
